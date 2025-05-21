@@ -3,6 +3,8 @@ import random
 import datetime
 
 # Growth mindset questions & scores
+
+
 questions = [
     ("How do you handle failure?", ["See it as a learning experience", "Feel discouraged"]),
     ("Do you believe intelligence can grow?", ["Yes, through effort", "No, it's fixed"]),
@@ -45,6 +47,9 @@ if st.button("Get Growth Advice"):
     st.write(random.choice(advice_list))
 
 # Journal for Reflections
+
+
+
 st.subheader("📖 Growth Journal")
 user_entry = st.text_area("Write about a recent experience that helped you grow:")
 if st.button("Save Entry"):
